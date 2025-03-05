@@ -1,0 +1,75 @@
+.Product-Page .product-image-carousel .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.Product-Page .size-color-options .btn {
+  margin: 5px;
+}
+.Product-Page .pairs-well-with .card {
+  margin-bottom: 20px;
+}
+.Product-Page .nav-tabs .nav-link {
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  margin-right: -1px;
+}
+.Product-Page .nav-tabs .nav-link.active {
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+.Product-Page .tab-content {
+  border: 1px solid #dee2e6;
+  padding: 20px;
+}
+
+/* Styles for product cards */
+.Product-Page .product-card {
+  border: 1px solid #dee2e6;
+  margin-bottom: 20px;
+}
+.Product-Page .product-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.Product-Page .product-card .countdown-timer {
+  margin-top: 10px;
+}
+.Product-Page .product-card .countdown-item {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+.Product-Page .related-products {
+  margin-top: 20px;
+}
+
+.Product-Page .product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.Product-Page .color-swatches {
+  margin-top: 10px;
+}
+
+.Product-Page .color-swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Product-Page .badge {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .Product-Page .product-card img {
+    height: auto;
+  }
+}

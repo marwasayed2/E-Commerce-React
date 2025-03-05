@@ -1,0 +1,25 @@
+.image-container {
+  position: relative;
+}
+.image-container img {
+  width: 80%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 7%;
+}
+.image-container a {
+  color: #05131b;
+  font-weight: 500;
+  font-size: large;
+}
+.image-container a:hover {
+  color: #0a85d1;
+}
+.collection-product {
+  text-align: center;
+}
+.collection-product-img {
+  box-shadow: #848484 0px 0px 8px 1px;
+  background-color: #e6e6e6;
+  padding: 5px;
+}

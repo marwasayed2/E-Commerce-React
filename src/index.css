@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Futura";
+  src: url("futura/Futura-Book-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("futura/Futura-Bold-font.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("futura/Futura-Book-Italic-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("futura/Futura-Bold-Italic-font.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("futura/Futura-Light-font.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("futura/Futura-Extra-Black-font.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("futura/futura-medium-bt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+a,
+ul,
+ol,
+li,
+blockquote,
+strong,
+em,
+small,
+label,
+button,
+input,
+textarea {
+  font-family: "Futura", sans-serif;
+}
+.accordion-button:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: none;
+}
